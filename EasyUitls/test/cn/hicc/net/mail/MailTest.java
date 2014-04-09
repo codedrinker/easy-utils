@@ -12,14 +12,14 @@ public class MailTest {
 	@Test
 	public void sendStandard() {
 		String host = "smtp.yeah.net";
-		String username = "taohongbei@yeah.net";
-		String password = "cxrhthb";
+		String username = "mail_dev@yeah.net";
+		String password = "mail_dev";
 		String addresslist = "newangchunlei@163.com,swangchunlei@sina.com";
 		String content = "这个是第一个简单的测试";
 		String mimeType = "text/html;charset=GBK";
 		String subject = "这个是第一个简单的测试";
 		Map<String, String> from = new HashMap<String, String>();
-		from.put("淘烘焙网", "taohongbei@yeah.net");
+		from.put("淘烘焙网", "mail_dev@yeah.net");
 		Translater.send(host, username, password, addresslist, true, content,
 				mimeType, subject, from);
 
@@ -29,14 +29,14 @@ public class MailTest {
 	public void sendStandardAttchs() {
 		boolean debug = true;
 		String host = "smtp.yeah.net";
-		String username = "taohongbei@yeah.net";
-		String password = "cxrhthb";
+		String username = "mail_dev@yeah.net";
+		String password = "mail_dev";
 		String addresslist = "newangchunlei@163.com,swangchunlei@sina.com";
 		String content = "这个是第二个简单的测试";
 		String mimeType = "text/html;charset=GBK";
 		String subject = "这个是第二个简单的测试";
 		Map<String, String> from = new HashMap<String, String>();
-		from.put("淘烘焙网", "taohongbei@yeah.net");
+		from.put("淘烘焙网", "mail_dev@yeah.net");
 		Map<String, String> attchs = new HashMap<String, String>();
 		attchs.put(
 				"图片.jpg",
@@ -74,8 +74,8 @@ public class MailTest {
 	public void sendIOeml() {
 		boolean debug = true;
 		String host = "smtp.yeah.net";
-		String username = "taohongbei@yeah.net";
-		String password = "cxrhthb";
+		String username = "mail_dev@yeah.net";
+		String password = "mail_dev";
 		String addresslist = "newangchunlei@163.com";
 		String eml = FileUtility.getRelativeFilePath("des",
 				"sendStandardIO.eml");

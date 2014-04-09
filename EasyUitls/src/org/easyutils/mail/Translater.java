@@ -40,9 +40,9 @@ public class Translater {
 	 * @param host
 	 *            邮箱主机 网易的例如:smtp.yeah.net
 	 * @param username
-	 *            邮箱的用户名 网易的例如:taohongbei@yeah.net
+	 *            邮箱的用户名 网易的例如:mail_dev@yeah.net
 	 * @param password
-	 *            邮箱的密码 网易的例如:taohongbei
+	 *            邮箱的密码 网易的例如:mail_dev
 	 * @param addresslist
 	 *            发送的地址，可以多个，用,号分隔 例如:335365344@qq.com,swangchunlei@sina.com
 	 * @param debug
@@ -54,7 +54,7 @@ public class Translater {
 	 * @param subject
 	 *            邮件的标题，例如:烘焙网找回密码
 	 * @param fromaddress
-	 *            邮件的来源，一般添加为邮箱地址 例如:taohongbei@yeah.net
+	 *            邮件的来源，一般添加为邮箱地址 例如:mail_dev@yeah.net
 	 * @return 是否发送成功
 	 */
 
@@ -197,9 +197,9 @@ public class Translater {
 	 * @param host
 	 *            String 邮箱主机 网易的例如:smtp.yeah.net
 	 * @param username
-	 *            String 邮箱的用户名 网易的例如:taohongbei@yeah.net
+	 *            String 邮箱的用户名 网易的例如:mail_dev@yeah.net
 	 * @param password
-	 *            String 邮箱的密码 网易的例如:taohongbei
+	 *            String 邮箱的密码 网易的例如:mail_dev
 	 * @param subject
 	 *            String 邮件的标题，例如:烘焙网找回密码
 	 * @param addresslist
@@ -299,9 +299,9 @@ public class Translater {
 	 * @param host
 	 *            String 邮箱主机 网易的例如:smtp.yeah.net
 	 * @param username
-	 *            String 邮箱的用户名 网易的例如:taohongbei@yeah.net
+	 *            String 邮箱的用户名 网易的例如:mail_dev@yeah.net
 	 * @param password
-	 *            String 邮箱的密码 网易的例如:taohongbei
+	 *            String 邮箱的密码 网易的例如:mail_dev
 	 * @param addresslist
 	 *            String 发送的地址，可以多个，用,号分隔 例如:335365344@qq.com,swangchunlei@sina.com
 	 * @param eml
