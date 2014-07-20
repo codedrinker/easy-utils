@@ -1,1 +1,7 @@
-大学期间做的一个东西的封装，抽出了一些公共的地方，包括发送邮件，处理字符串，处理doc，银行接口，hh查看CHM文件等
+common util made in college
+it contains following tookits
+javamail
+poi
+string
+hh
+bank interface
