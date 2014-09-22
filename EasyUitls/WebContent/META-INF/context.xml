@@ -1,5 +1,0 @@
-<Context>
-	<Resource name="mail/Session" auth="Container" type="javax.mail.Session"
-		mail.smtp.host="smtp.yeah.net" mail.transport.protocol="smtp"
-		mail.smtp.auth="true" />
-</Context>
